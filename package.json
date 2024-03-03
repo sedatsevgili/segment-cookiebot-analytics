@@ -10,7 +10,8 @@
         "lite-server": "^2.6.1",
         "prettier": "3.2.5",
         "typescript": "^5.3.3",
-        "typescript-eslint": "^7.1.0"
+        "typescript-eslint": "^7.1.0",
+        "uglify-js": "^3.17.4"
     },
     "type": "module",
     "scripts": {
@@ -19,6 +20,7 @@
         "lint": "eslint .",
         "format": "prettier --write .",
         "dev": "lite-server",
-        "watch": "tsc -w"
+        "watch": "tsc -w",
+        "uglify": "uglifyjs dist/index.js -o dist/index.min.js"
     }
 }
