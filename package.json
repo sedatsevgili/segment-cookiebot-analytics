@@ -1,24 +1,24 @@
 {
-  "name": "segment-cookiebot-analytics",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:sedatsevgili/segment-cookiebot-analytics.git",
-  "author": "Sedat <sedatsevgili@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "lite-server": "^2.6.1",
-    "prettier": "3.2.5",
-    "typescript": "^5.3.3",
-    "typescript-eslint": "^7.1.0"
-  },
-  "type": "module",
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "dev": "lite-server",
-    "watch": "tsc -w"
-  }
+    "name": "segment-cookiebot-analytics",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:sedatsevgili/segment-cookiebot-analytics.git",
+    "author": "Sedat <sedatsevgili@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "lite-server": "^2.6.1",
+        "prettier": "3.2.5",
+        "typescript": "^5.3.3",
+        "typescript-eslint": "^7.1.0"
+    },
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "lint": "eslint .",
+        "format": "prettier --write .",
+        "dev": "lite-server",
+        "watch": "tsc -w"
+    }
 }
