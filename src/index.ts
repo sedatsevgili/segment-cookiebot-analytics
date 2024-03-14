@@ -1,4 +1,9 @@
 const segmentCookieBotAnalyticsWrapper = async (): Promise<void> => {
+    if (!window.analytics) {
+        console.error("Segment is not loaded");
+        return;
+    }
+
     const segmentKey = "<YOUR_SEGMENT_KEY>";
     const destinationCategoryMapping: Record<string, string> = {
         CRM: "preferences",
